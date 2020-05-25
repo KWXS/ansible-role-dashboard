@@ -114,7 +114,7 @@ Example Playbook
         aws_default_region:
         php_api_version:
         php_version:
-	php_release:
+        php_release:
         app_env:
       roles:
         - ansible-role-dashboard
