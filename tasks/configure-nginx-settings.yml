@@ -27,13 +27,13 @@
 
 - name: Copy root private key certificate to minio folder
   copy:
-    src: /usr/local/etc/nginx/ssl/tenantcloud.dev.key
+    src: /usr/local/etc/nginx/ssl/km.dev.key
     dest: $HOME/.minio/private.key
     remote_src: true
 
 - name: Copy root public key certificate to minio folder
   copy:
-    src: /usr/local/etc/nginx/ssl/tenantcloud.dev.crt
+    src: /usr/local/etc/nginx/ssl/km.dev.crt
     dest: $HOME/.minio/public.crt
     remote_src: true
 
