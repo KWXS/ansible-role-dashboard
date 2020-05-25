@@ -25,7 +25,7 @@ redis-server
 nginx
 docker
 docker-compose
-awscli
+awscli aws-cli/1.16.248 version (pip install awscli==1.16.248)
 ```
 
 awscli must be installed and configured, AWS keys have permission to pulling images from AWS ECR.
