@@ -17,7 +17,7 @@
     state: directory
     mode: 0777
 
-- name: Clone TenantCloud dashboard project
+- name: Clone dashboard project
   git:
     repo: "{{ dashboard_git }}"
     dest: $HOME/{{ work_dir }}/home.{{ work_domain }}
@@ -69,7 +69,7 @@
   command: /usr/local/bin/brew services start supervisor
   changed_when: false
 
-- name: Copy and setup TenantCloud dashboard environment file
+- name: Copy and setup dashboard environment file
   copy:
     src: $HOME/{{ work_dir }}/home.{{ work_domain }}/.env.pipeline
     dest: $HOME/{{ work_dir }}/home.{{ work_domain }}/.env
