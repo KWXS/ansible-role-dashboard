@@ -16,7 +16,7 @@
 
 - name: Change openssl.capath string
   lineinfile:
-    path: /usr/local/etc/php/7.1/php.ini
+    path: /usr/local/etc/php/7.4/php.ini
     regexp: '^openssl.capath ='
     line: ';openssl.capath ='
 
