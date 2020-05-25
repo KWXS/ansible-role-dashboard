@@ -1,11 +1,11 @@
-keller.dashboard
+kellermanagement.dashboard
 =========
 
 Ansible role for install dashboard project.
 
-  - keller_dashboard
+  - ansible-role-dashboard
 
-Ste-by-step
+Step-by-step
 ------------
 
   - Setup Kellermanagement docker containers project and pull images from https://github.com/KWXS/km-containers
