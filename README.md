@@ -117,7 +117,7 @@ Example Playbook
 	php_release:
         app_env:
       roles:
-        - KWXS.dashboard
+        - ansible-role-dashboard
 
 License
 -------
