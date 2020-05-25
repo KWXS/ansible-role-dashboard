@@ -66,6 +66,7 @@ aws_lambda_s3:
 aws_default_region:
 php_api_version:
 php_version:
+php_release:
 app_env:
 ```
 
@@ -113,6 +114,7 @@ Example Playbook
         aws_default_region:
         php_api_version:
         php_version:
+	php_release:
         app_env:
       roles:
         - KWXS.dashboard
