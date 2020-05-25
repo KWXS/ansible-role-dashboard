@@ -1,6 +1,5 @@
 ---
 galaxy_info:
-  role_name: dashboard
   author: Oleh Debretseni
   description: install dashboard
 
