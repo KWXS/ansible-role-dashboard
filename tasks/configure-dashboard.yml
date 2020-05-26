@@ -320,14 +320,3 @@
     path: $HOME/{{ work_dir }}/home.{{ work_domain }}/.env
     regexp: '^CONVERTER_DRIVER='
     line: 'CONVERTER_DRIVER=lambda'
-
-- name: Create idea conf directory
-  file:
-    path: $HOME/{{ work_dir }}/home.{{ work_domain }}/.idea
-    state: directory
-    mode: 0777
-
-- name: Copy idea conf files
-  copy:
-    src: "files/idea/"
-    dest: "$HOME/{{ work_dir }}/home.{{ work_domain }}/.idea/"
